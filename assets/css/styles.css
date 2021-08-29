@@ -830,8 +830,8 @@ img{
     .about__container,
     .skills__container,
     .portfolio__content,
-    .contact__container,
-    .footer__container{
+    .footer__container,
+    .contact__container{
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -941,6 +941,11 @@ img{
         align-items: center;
     }
 
+    .contact__container{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 6rem;
+    }
+
     .footer__container{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -968,7 +973,7 @@ img{
     }
 
     .home__blob{
-        widows: 320px;
+        width: 320px;
     }
     .home__social{
         transform: translateX(-6rem);
@@ -988,5 +993,16 @@ img{
     }
     .swiper-container-horizontal > .swiper-pagination-bullets{
         bottom: -4.5rem;
+    }
+    
+    .contact__container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer__links{
+        padding: 1rem 3.75rem 0;
+    }
+    .footer__socials{
+        padding-top: 0.7rem;
     }
 }
