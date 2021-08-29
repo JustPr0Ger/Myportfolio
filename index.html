@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -21,11 +21,10 @@
             <nav class="nav container">
                 <a href="#" class="nav__logo">Myportfolio</a>
 
-
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -40,17 +39,12 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
-                            </a>
-                        </li>
-                        <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
                                 <i class="uil uil-scenery nav__icon"></i> Portfolio
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#contant" class="nav__link">
+                            <a href="#contact" class="nav__link">
                                 <i class="uil uil-message nav__icon"></i> Contactme
                             </a>
                         </li>
@@ -59,6 +53,8 @@
                 </div>
 
                 <div class="nav__btns">
+                    <!--Theme change button-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -137,17 +133,17 @@
                     
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">08+</span>
+                                <span class="about__info-title">01+</span>
                                 <span class="about__info-name">Years <br> experience</span>
                             </div>
 
                             <div>
-                                <span class="about__info-title">20+</span>
+                                <span class="about__info-title">03+</span>
                                 <span class="about__info-name">Completed <br> project</span>
                             </div>
 
                             <div>
-                                <span class="about__info-title">03+</span>
+                                <span class="about__info-title">02+</span>
                                 <span class="about__info-name">Companies <br> worked</span>
                             </div>
                         </div>
@@ -175,7 +171,7 @@
 
                                 <div>
                                     <h1 class="skills__titles">Front-End Developer</h1>
-                                    <span class="skills__subtitle">Moret than 1 years</span>
+                                    <span class="skills__subtitle">More than 1 years</span>
                                 </div>
 
                                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -231,7 +227,7 @@
 
                                 <div>
                                     <h1 class="skills__titles">Back-End Developer</h1>
-                                    <span class="skills__subtitle">Moret than 1 years</span>
+                                    <span class="skills__subtitle">More than 1 years</span>
                                 </div>
 
                                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -241,7 +237,7 @@
                                 <div class="skills__data">
                                     <div class="skills__titles">
                                         <h3 class="skills__name">PHP</h3>
-                                        <span class="skills__number">80%</span>
+                                        <span class="skills__number">35%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__php"></span>
@@ -257,26 +253,6 @@
                                         <span class="skills__percentage skills__node"></span>
                                     </div>
                                 </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Firebase</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__firebase"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Python</h3>
-                                        <span class="skills__number">55%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__python"></span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -289,7 +265,7 @@
 
                                 <div>
                                     <h1 class="skills__titles">Designer</h1>
-                                    <span class="skills__subtitle">Moret than 1 years</span>
+                                    <span class="skills__subtitle">More than 1 years</span>
                                 </div>
 
                                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -299,7 +275,7 @@
                                 <div class="skills__data">
                                     <div class="skills__titles">
                                         <h3 class="skills__name">Figma</h3>
-                                        <span class="skills__number">90%</span>
+                                        <span class="skills__number">85%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__figma"></span>
@@ -308,18 +284,18 @@
 
                                 <div class="skills__data">
                                     <div class="skills__titles">
-                                        <h3 class="skills__name">Sketch</h3>
-                                        <span class="skills__number">85%</span>
+                                        <h3 class="skills__name">Avocode</h3>
+                                        <span class="skills__number">70%</span>
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__sketch"></span>
+                                        <span class="skills__percentage skills__avocode"></span>
                                     </div>
                                 </div>
 
                                 <div class="skills__data">
                                     <div class="skills__titles">
                                         <h3 class="skills__name">Photoshop</h3>
-                                        <span class="skills__number">85%</span>
+                                        <span class="skills__number">60%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__photoshop"></span>
@@ -338,12 +314,12 @@
 
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
                             <i class="uil uil-graduation-cap qualification__icon"></i>
                             Education
                         </div>
 
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex" data-target="#work">
                             <i class="uil uil-briefcase-alt qualification__icon"></i>
                             Work
                         </div>
@@ -351,12 +327,13 @@
 
                     <div class="qualification__sections">
                         <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                        <div class="qualification__content">
+                        <div class="qualification__content qualification__active" data-content id="education">
                             <!--==================== QUALIFICATION 1 ====================-->
                             <div class="qualification__data">
+
                                 <div>
                                     <h3 class="qualification__title">Software Engineer</h3>
-                                    <span class="qualification__subtitle">Minsk - Unversity</span>
+                                    <span class="qualification__subtitle">Minsk - University</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2015 - 2019
@@ -364,9 +341,10 @@
                                 </div>
 
                                 <div>
-                                    <span class="qualificaton__rounder"></span>
-                                    <span class="qualificaton__line"></span>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
                                 </div>
+
                             </div>
 
                             <!--==================== QUALIFICATION 2 ====================-->
@@ -374,13 +352,54 @@
                                 <div></div>
 
                                 <div>
-                                    <span class="qualificaton__rounder"></span>
-                                    <span class="qualificaton__line"></span>
+                                    <span class="qualification__rounder"></span>
+                                    <!--<span class="qualification__line"></span>-->
+                                </div>
+                                
+                                <div>
+                                    <h3 class="qualification__title">Software Development</h3>
+                                    <span class="qualification__subtitle">Minsk - Courses in Itransition</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+
+                                <div>
+                                    <h3 class="qualification__title">QA Engineer</h3>
+                                    <span class="qualification__subtitle">Apalon - Minsk</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2017
+                                    </div>
                                 </div>
 
                                 <div>
-                                    <h3 class="qualification__title">Web Design</h3>
-                                    <span class="qualification__subtitle">Spain - Institute</span>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Front-End Developer</h3>
+                                    <span class="qualification__subtitle">iTechArt - Minsk</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2018 - 2019
@@ -390,86 +409,172 @@
 
                             <!--==================== QUALIFICATION 3 ====================-->
                             <div class="qualification__data">
+
                                 <div>
-                                    <h3 class="qualification__title">Web Development</h3>
-                                    <span class="qualification__subtitle">Peru - Institute</span>
+                                    <h3 class="qualification__title">System Administrator</h3>
+                                    <span class="qualification__subtitle">College of arts - Minsk</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2019 - 2020
+                                        2019 - 2021
                                     </div>
                                 </div>
 
                                 <div>
-                                    <span class="qualificaton__rounder"></span>
-                                    <span class="qualificaton__line"></span>
-                                </div>
-                            </div>
-
-                            <!--==================== QUALIFICATION 4 ====================-->
-                            <div class="qualification__data">
-                                <div></div>
-                                
-                                <div>
-                                    <span class="qualificaton__rounder"></span>
-                                    <!-- <span class="qualificaton__line"></span> -->
+                                    <span class="qualification__rounder"></span>
+                                    <!--<span class="qualification__line"></span>-->
                                 </div>
 
-                                <div>
-                                    <h3 class="qualification__title">Master in UI/UX</h3>
-                                    <span class="qualification__subtitle">Peru - Institute</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2020 - 2021
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-
-            </section>
-
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most recent work</span>
 
-            </section>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Modern Website</h3>
+                                <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
 
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
-            </section>
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Brand Design</h3>
+                                <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
 
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Online Store</h3>
+                                <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add arrows-->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
             </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
 
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+375(29)531-01-39</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">gki.proger@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Minsk</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Myportfolio</h1>
+                        <span class="footer__subtitle">Front-End Developer</span>
+                    </div>
 
-            
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://www.twitter.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Myportfolio. All right reserved</p>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
